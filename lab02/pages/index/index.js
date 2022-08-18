@@ -26,7 +26,7 @@ Page({
       url:'https://geoapi.qweather.com/v2/city/lookup?',
       data:{
         location:that.data.region[2],
-        key:'cb78fd82b2c0479a85fc35107458b714'
+        key:'改为自己的key'
       },
       success:function(res){
         console.log(res.data)
@@ -37,7 +37,7 @@ Page({
           url: 'https://devapi.qweather.com/v7/weather/now?',
           data:{
             location:that.data.Place_ID,
-            key:'cb78fd82b2c0479a85fc35107458b714'
+            key:'改为自己的key'
           },
           success:function(res){
             console.log(res.data.now)
