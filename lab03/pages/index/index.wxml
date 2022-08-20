@@ -1,0 +1,15 @@
+<!--区域1：视频播放器-->
+<video id='myVideo' controls enable-danmu danmu-btn src="{{src}}"></video>
+<!--区域2：弹幕控制-->
+<view class='danmuArea'>
+  <input type='text' placeholder="弹幕发射台"  bindinput='getDanmu'></input>
+  <button bindtap='sendDanmu'>发射</button>
+</view>
+<!--区域3：视频列表-->
+<view class="videoList">
+  <view class='videoBar' wx:for='{{list}}' wx:key='video{{index}}' data-url='{{item.videoUrl}}' 
+  bindtap="playVideo">
+    <image src='/images/bilibili-play.jpg'></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
