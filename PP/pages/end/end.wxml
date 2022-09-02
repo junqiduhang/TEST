@@ -1,0 +1,6 @@
+<view class="container1" wx:if="{{isGet}}">
+    <view class="outcome">you get {{dream}}</view>
+</view>
+ <view class="container2" wx:else>
+    <view class="outcome">you just see it</view>
+</view>

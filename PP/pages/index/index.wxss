@@ -1,0 +1,25 @@
+.container{
+  background-image: url(https://7169-qicloud-6gp4wllie1cfc6cf-1311982804.tcb.qcloud.la/star.png?sign=6c5ca1594f34e8d9392e8b412a87d3bd&t=1661425507);
+  background-size: 100% 100%;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.input-container{
+  margin-top: 50%;
+  border: 3rpx solid white;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  margin-left: 100rpx;
+  height: 100rpx;
+}
+input{
+  height: 100rpx;
+  color: white;
+  margin-left: -100rpx;
+}
+button{
+    margin-top: 300rpx;
+    border-radius: 98rpx;
+}

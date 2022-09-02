@@ -1,0 +1,19 @@
+<view class="container" style="width: 750rpx; height: 1170rpx; display: block; box-sizing: border-box">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="runImg" >
+       <view  class="animation-view"  animation='{{donghua}}'>
+       </view>
+    </view>
+    <view class="eventName">
+        <text class="event">{{event}}</text>
+    </view>
+    <button type="primary" class="runButton" bindtouchstart="startTime" bindtouchend="endTime">
+    Run
+    </button>
+</view>

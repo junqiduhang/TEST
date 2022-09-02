@@ -1,0 +1,40 @@
+.swiper {
+    height: 400rpx;
+    width: 100%;
+  }
+  .swiper-image {
+    height: 100%;
+    width: 100%;
+  }
+  .slide-image{
+     height: 100%;
+    width: 100%;
+  }
+.runImg{
+    border-bottom: 5rpx solid #191970;
+    margin-top: 10rpx;
+    color:#191970;
+    height:100rpx;
+    width: 100%;
+}
+
+.animation-view{
+    margin-left: 20rpx;
+    margin-top: 30rpx;
+    height: 80rpx;
+    width: 80rpx;
+    background-color: #191970;
+}
+.event{
+    font-size: large;
+}
+.eventName{
+    border-bottom: 5rpx solid #191970;
+    margin-top: 50rpx;
+    height: 100rpx;
+    width: 100%;
+}
+.runButton{
+    margin-top: 200rpx;
+    border-radius: 98rpx;
+}

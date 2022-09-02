@@ -1,0 +1,24 @@
+
+.outcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    font-size: xx-large;
+    color: white;
+}
+.container1{
+    color: white;
+    background-image: url(https://7169-qicloud-6gp4wllie1cfc6cf-1311982804.tcb.qcloud.la/HD.png?sign=18998c8a266dc16f2ac753ae4fc19287&t=1661506295);
+    background-size: 100% 100%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.container2{
+    color: white;
+    background-image: url(https://7169-qicloud-6gp4wllie1cfc6cf-1311982804.tcb.qcloud.la/star.png?sign=db7d9cd6e27497e034fbdfbf8e879f03&t=1661505598);
+    background-size: 100% 100%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}

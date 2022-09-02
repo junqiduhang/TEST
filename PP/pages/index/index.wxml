@@ -1,0 +1,6 @@
+<view class="container">
+    <view class="input-container">
+        <input bindinput="getDream" placeholder="dream"></input>
+    </view>
+    <button bindtap="gameStart">确定</button>
+</view>
